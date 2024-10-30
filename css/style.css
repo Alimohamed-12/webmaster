@@ -1,0 +1,1050 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+main{
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height:80px;
+    display:  flex;
+    justify-content: space-around;
+    background-color:rgba(11, 149, 134, 1);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header img{
+    width: 120px;
+    height: 30px;
+    margin-top: 19px;
+    margin-left: 40px;
+    
+}
+
+.lista-center{
+    display: inline-block;
+    margin-top: 24px;
+}
+.lista-center li{
+    list-style-type: none;
+    float: left;
+  margin: 0 30px 0 30px ;
+
+}
+.lista-center li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+
+
+
+
+.section-home{
+    background-image: url(../img/solar-panels-meadow\ 1.png);
+    background-size: 100% 100%;
+    height: 90vh;
+    position: relative;
+    margin-top: 0;
+}
+.info{
+    position: absolute;
+    left: 10%;
+    top: 26%;
+
+}
+.info h1{
+    font-size: 43px;
+    color: white;
+}
+.info p{
+    color: white;
+    font-size: 19px;
+    margin-top: 40px;
+}
+.btn{
+margin-top: 23px;
+}
+
+button{
+    /* padding: 10px 15px 10px 15px; */
+   /* width: 140px; */
+    padding:  7px 30px;
+    font-size: 17px;
+
+}
+.btn1{
+    background-color:#5ab197;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.btn2{
+    background-color: #e5a633d9;
+    color: black;
+    border: none;
+    border-radius: 20px;
+   
+}
+.lista2{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+.lii{
+    padding-left:90px ;
+}
+.lista2 li {
+    font-size: 20px;
+    color: white;
+}
+.menu-bar{
+    background-color: #5ab197;
+ padding-bottom: 10px;
+}
+.menu {
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.header-first-1 {
+    align-items: center;
+    border-radius: 5px;
+    width: 14%;
+    height: 80%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #17685e;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+    .header-list-div p {
+        size: 1.2em;
+    }
+    .imgggg{
+        margin-top: 10px;
+        width: 70px;
+        height: 30px;
+    }
+    .header-second-2 {
+        
+        width: 100%;
+        height: 70%;
+        text-align: left;
+        margin-left: 15px;
+     
+     
+        /* background-color: #5ab197; */
+    }
+   
+    .lista-center {
+        display: none;
+    }
+    .menu {
+        color: white;
+        cursor: pointer;
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .section{
+        width: 100%;
+    }
+    .info h1{
+        width: 60%;
+        font-size: 25px;
+    }
+    .info p{
+        width: 85%;
+        font-size: 16px;
+    }
+    .btn{
+        width: 60%;
+        margin-left: 70px;
+    }
+    .btn1{
+        padding: 5px 50px 5px 50px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+}
+.second-bage{
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.parent{
+    margin-top: 100px;
+}
+.item-first{
+display: flex;
+justify-content: space-between;
+
+}
+.item-first .div22{
+  width: fit-content;
+
+}
+.div1 h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(16, 24, 40, 1);
+
+}
+.div1 p{
+    margin-top: 30px;
+    color:rgba(71, 84, 103, 1); 
+    width: 80%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+
+
+}
+.div1 ul  {
+margin-top: 30px;
+list-style-type: none;
+}
+.div1 ul li{
+color: rgba(16, 24, 40, 1);
+font-size: 20;
+margin: 10px 0;
+font-weight: 600;
+
+}
+
+.div1 ul li span{
+    display: inline-block;
+  color:rgba(132, 189, 58, 1);
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.diimg{
+    background-image: url(../img/Rectangle\ 30.png);
+    background-size: 100% 100%;
+    height: 400px;
+    position: relative;
+    width: 40%;
+    margin-left: 5%;
+}
+.diimg img{
+    position: absolute;
+    bottom: 10px;
+    left: -40px;
+    height: 160px;
+    width: 230px;
+}
+
+
+
+
+.section-third{
+    margin-top: 50px;
+    background-image: url(../img/8116\ 1.png);
+    background-size: 100% 100%;
+position: relative;
+height: 70vh;
+
+}
+.third-content{
+
+
+    position: absolute;
+  top: 100px;
+    width: 600px;
+}
+.third-content h2{
+ font-family: "Inter", sans-serif;
+font-size: 38px;
+font-weight: 600;
+line-height: 50.83px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.third-content p{
+
+line-height: 28px;
+text-align: left;
+margin: 18px 0;
+
+ 
+ }
+.third-content button{
+    font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+letter-spacing: 0.08em;
+text-align: left;
+color:  rgba(42, 51, 52, 1);
+border-radius: 14px;
+border: none;
+background: rgba(255, 187, 28, 1);
+
+} 
+
+
+ 
+.third-section{
+    margin-top: 60px;
+}
+.third-title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.third-title h2{
+    font-family: "Inter", sans-serif;
+    color: rgba(16, 24, 40, 1);
+    font-weight: 600;
+    font-size: 39px;
+}
+.third-title p{
+    color:  rgba(71, 84, 103, 1);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.thied-parent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.item-solar .solar-info{
+ text-align: left;
+ padding-left: 12px;
+}
+.solar-info h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:  rgba(16, 24, 40, 1);
+    padding: 20px 0 ;
+    
+}
+.solar-info p{
+ 
+    color:rgba(71, 84, 103, 1); 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+}
+.solar-info a{
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+    color:  rgba(60, 171, 144, 1);
+    text-transform: capitalize;
+    
+}
+.solar-info a i{
+    margin-left: 10px;
+}
+.repaires-parent{
+    margin-top: 50px;
+    background-image: url(../img/bac.png);
+    background-size: 100% 100%;
+    height: 70vh;
+    position: relative;
+}
+.repaires{
+    position: absolute;
+ top: 70px;
+ left: 260px;
+   height: 70%;
+   width: 60%;
+background-color: rgba(0, 0, 0, 0.57);
+color:rgba(255, 255, 255, 1);
+}
+.repaires h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    padding-top: 22px;
+}
+.repaires p{
+    width: 93%;
+    margin: 20px auto 0 auto;
+ font-family: "Inter", sans-serif;
+font-size: 19px;
+font-weight: 200;
+line-height: 28px;
+text-align: center;
+text-align: justify;
+
+    
+}
+.invators-body{
+padding-top: 50px;
+background-color:rgba(255, 187, 28, 0.05);
+;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.invators-parent{
+    display: flex;
+}
+
+.invators-item .div-icon{
+    width: 56px;
+    height: 56px;
+    gap: 0px;
+   
+   border-radius: 10px;
+    opacity: 0px;
+    text-align: center;
+    line-height: 56px;
+    background-color: rgba(60, 171, 144, 1);
+    outline-offset: 2px;
+    outline: 6px solid rgba(60, 171, 144, 0.15) ;
+    color:  rgba(255, 255, 255, 1);
+    margin: 9px 0 0 9px;
+}
+.invators-item h3{
+    font-family: "Inter", sans-serif;
+font-size: 42px;
+font-weight: 600;
+line-height: 50.83px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-top: 28px;
+width: 358.67px;
+height: 153px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.invators-item p{
+ margin-top: 17px;
+    font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: rgba(71, 84, 103, 1);
+;
+}
+.invators-item2{
+    padding: 9px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 22px;
+}
+.item2-inside-invators{
+    width: Fill (358.67px)px;
+    height: Hug (418px)px;
+    padding: 24px;
+    gap: 32px;
+    border-radius: 12px ;
+
+    opacity: 0px;
+    border: 1px solid rgba(60, 171, 144, 1)
+}
+.item2-inside-invators .img-top{
+
+padding: 19px 16px;
+width: Fill (310.67px)px;
+height: Fixed (106px)px;
+gap: 10px;
+border-radius: 10px ;
+opacity: 0px;
+
+background-color:  rgba(60, 171, 144, 0.15);
+
+
+}
+.item2-inside-invators .img-top i{
+font-size: 50px;
+color: rgb(211, 208, 208);
+  gap: 0px;
+opacity: 0px;
+ margin-left: 90px;
+    
+
+}
+.item2-inside-invators h4{
+    font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: rgba(16, 24, 40, 1);
+width: 300.67px;
+height: 20px;
+opacity: 0px;
+
+margin-top: 30px;
+
+}
+.item2-inside-invators p{
+    color: rgba(71, 84, 103, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
+.margin{
+    margin-bottom: 50px;
+}
+.item2-inside-invators p span{
+    text-decoration: underline;
+}
+.item2-inside-invators a{
+    font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: rgba(60, 171, 144, 1);
+margin-top: 20px;
+text-decoration: none;
+display: inline-block;
+
+
+
+}
+.item2-inside-invators a i{
+    margin-left: 10px;
+    display: inline-block;
+}
+.item3-inside {
+    height: 370px;
+
+}  
+
+.our-values{
+    margin-top: 50px;
+    
+}
+.title-our{
+    text-align: center;
+}
+.title-our h2{
+
+    font-family: "Inter", sans-serif;
+font-size: 42px;
+font-weight: 600;
+line-height: 50.83px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+.title-our p{
+
+
+ font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+color:rgba(71, 84, 103, 1);
+margin-top: 10px;
+
+}
+.our-parent{
+   display: grid; 
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+   margin-top: 20px;
+}
+.item1-our{
+    width: Fill (358.67px)px;
+    height: Hug (420px)px;
+
+    gap: 20px;
+    border-radius: 12px ;
+    border: 1px solid rgba(60, 171, 144, 1);
+    padding: 25px;
+    background: rgba(60, 171, 144, 0.05);
+
+    
+}
+.item1-our img{
+    width: 70px;
+height: 70px;
+top: -0px;
+left: -0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.item1-our h2{
+ font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+margin: 14px 0;
+
+}
+.item1-our p{
+font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(71, 84, 103, 1);
+
+
+}
+.what-say{
+    margin-top: 50px;
+
+}
+.what-parent{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 100px;
+   
+}
+.item-what-2{
+    width: Fill (708px)px;
+    height: Hug (443px)px;
+    padding: 40px ;
+ 
+    border-radius: 24px;
+    opacity: 0px;
+    background-color:  rgba(60, 171, 144, 0.06);
+    ;
+    
+}
+.item-what-2 .title{
+    display: flex;
+    justify-content: space-between;
+}
+.title ul{
+    display: flex;
+    flex-direction: row;
+}
+.title ul li{
+    margin: 0 5px;
+}
+.item-what-2 .title span{
+display: inline-block;
+font-family:" Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+text-align: left;
+color: rgba(60, 171, 144, 1);
+;
+
+}
+.title ul .list-first{
+    width: 8px;
+height: 8px;
+left: 556px;
+gap: 0px;
+opacity: 0px;
+color:  rgba(107, 107, 107, 1);
+;
+}
+.title ul .lista-second{
+    width: 8px;
+height: 8px;
+left: 604px;
+gap: 0px;
+opacity: 0px;
+color:  rgba(217, 217, 217, 1);
+
+}
+.item-what-2 .ppp{
+    width: 516px;
+    height: 144px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+           
+    margin: 30px 0;
+}
+.item-what-2 .footer{
+display: flex;
+
+}
+.footer .hed{
+    width: Hug (234px)px;
+    height: Hug (47px)px;
+    gap: 9px;
+    opacity: 0px;
+    margin-left: 4px;
+    
+}
+.hed h2{
+    font-size: 18px;
+    margin-top: 4px;
+}
+.hed p{
+ margin-top: 10px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+
+}
+.footer{
+    margin-top: 60px;
+}
+.footer .icc {
+ margin-left: auto;
+ width: Hug (112px)px;
+height: Hug (48px)px;
+gap: 16px;
+opacity: 0px;
+margin-top: 14px;
+}
+.itewhat1{
+    margin-top: 70px;
+}
+.itewhat1 h2{
+    font-size: 40px;
+    margin: 15px 0;
+
+}
+.itewhat1 p{
+    font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+width: 400px;
+height: 64px;
+gap: 0px;
+opacity: 0px;
+color: rgba(28, 28, 28, 1);
+
+}
+.footer-parent{
+    margin-top: 18px;
+    width: Fixed (1,440px)px;
+    height: Hug (412px)px;
+    padding: 80px;
+    gap: 54px;
+    opacity: 0px;
+background-color:  rgba(40, 54, 70, 1);
+;    
+}
+
+.top-footer{
+display: grid;
+grid-template-columns: 66%  30%;
+   
+}
+.footer-left ul{
+    list-style-type: none;
+    display: flex;
+    width: Hug (499px)px;
+height: Hug (24px)px;
+gap: 40px;
+opacity: 0px;
+margin-top: 16px;
+margin-bottom: 44px;
+
+}
+.footer-left ul li a{
+ 
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+text-decoration: none;
+    text-align: left;
+    color:  rgba(255, 255, 255, 1);
+
+    
+}
+.footer-left p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    
+color:rgba(255, 255, 255, 1);
+margin-top: 20px
+;    
+}
+.grid-parent{
+    width: Hug (406px)px;
+height: Hug (48px)px;
+padding: 0px 0px 0px 20px;
+gap: 0px;
+border-radius: 38px ;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+border: 1px solid rgba(179, 189, 199, 1);
+margin-top: 13px;
+}
+.grid-parent input{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+border-radius: 10px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+background-color:  rgba(40, 54, 70, 1);
+;
+
+border: none;
+
+}
+.grid-parent button{
+border: none;
+ color: rgba(255, 255, 255, 1);
+    background: rgba(255, 187, 28, 1);
+    
+    width: Hug (147px)px;
+    height: Hug (48px)px;
+    padding: 12px 28px 12px 28px;
+    gap: 10px;
+    border-radius: 109px ;
+    opacity: 0px;
+    
+}
+/* ////////////////////////// */
+@media (max-width: 768px) {
+
+
+   .item-first{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .item-first .div1 ul{
+    margin-left: 0;
+   }
+} 
+@media (max-width: 768px)  {
+    .section-third{
+        width: 100%;
+
+    }
+    .third-content h2{
+        font-size: 27px;
+    }
+    .third-content p{
+        font-size: 13px;
+    }
+    .third-title h2{
+        font-size: 25px;
+    }
+    .third-title p{
+        font-size: 10px;
+    }
+    .thied-parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .solar-info h2{
+        font-size: 17px;
+    }
+    .solar-info p{
+      
+        font-size: 10px;
+    }
+    .solar-info a{
+        font-size: 14px;
+    }
+    .repaires-parent{
+        width: 100%;
+        position: relative;
+    }
+    .repaires-parent .repaires{
+    position: absolute;
+    left: 100px;
+  
+    }
+    .repaires h2{
+        font-size: 15px;
+    }
+    .repaires p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .invators-parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .invators-item2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-icon i{
+        font-size: 12px;
+    }
+    .invators-item h3{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .invators-item p{
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .item2-inside-invators h4{
+        font-size: 20px;
+    }
+    .item2-inside-invators p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .item2-inside-invators a{
+        font-size: 16px;
+    }
+    .title-our h2{
+     font-size: 30px;
+    }
+    .title-our p{
+        font-size: 13px;
+    }
+    .our-parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .our-parent p{
+        font-size: 12px;
+    }
+    .what-parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item1-what h2{
+        font-size: 26px;
+    }
+    .item1-what p{
+        font-size: 16px;
+    }
+    .item-what-2{
+       
+        width: 100%;     
+    }
+    .item-what-2 .ppp {
+   
+        width: 100%;
+    }
+    .item-what-2 .ppp p{
+        font-size: 13px;
+    }
+    .footer .hed h2{
+        font-size: 13px;
+    }
+  
+    .hed p {
+        font-size: 12px;
+   
+    }
+    .footer .icc{
+        margin-left: 70px;
+    }
+    .hed h2,p{
+        margin-top: 20px;
+    }
+    .footer .img0{
+        margin-top: 20px;
+    }
+    .top-footer{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 60px; */
+    }
+    .footer-left img,ul{
+        margin-left: 90px;
+    }
+    .footer-left ul{
+        margin-left: 120px;
+    }
+    .footer-left ul li {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .footer-left ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left p{
+        text-align: center;
+    }
+    .footer-left{
+        margin-bottom: 20px;
+    }
+    .fooparent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fooparent ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .fooparent ul li {
+      align-content: space-between;
+      
+    }
+}
+.fooparent{
+    /* margin-top: 65px; */
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color:  rgba(113, 119, 125, 1);
+    border-top: 1px solid rgba(113, 119, 125, 1);
+}
+.fooparent ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    
+}
+.fooparent ul li {
+
+    margin: 0 15px;
+    border-right: 1px solid rgba(113, 119, 125, 1);
+    padding-right: 20px;
+}
